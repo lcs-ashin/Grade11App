@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8AECEFDC274EA06700124EF8 /* PlaylistGeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AECEFDB274EA06700124EF8 /* PlaylistGeneratorApp.swift */; };
-		8AECEFDE274EA06700124EF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AECEFDD274EA06700124EF8 /* ContentView.swift */; };
+		8AECEFDE274EA06700124EF8 /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AECEFDD274EA06700124EF8 /* MainPageView.swift */; };
 		8AECEFE0274EA06E00124EF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AECEFDF274EA06E00124EF8 /* Assets.xcassets */; };
 		8AECEFE3274EA06E00124EF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AECEFE2274EA06E00124EF8 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		8AECEFD8274EA06700124EF8 /* PlaylistGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AECEFDB274EA06700124EF8 /* PlaylistGeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistGeneratorApp.swift; sourceTree = "<group>"; };
-		8AECEFDD274EA06700124EF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8AECEFDD274EA06700124EF8 /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
 		8AECEFDF274EA06E00124EF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AECEFE2274EA06E00124EF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,7 +78,7 @@
 		8AECEFEA274EA09300124EF8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8AECEFDD274EA06700124EF8 /* ContentView.swift */,
+				8AECEFDD274EA06700124EF8 /* MainPageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -153,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AECEFDE274EA06700124EF8 /* ContentView.swift in Sources */,
+				8AECEFDE274EA06700124EF8 /* MainPageView.swift in Sources */,
 				8AECEFDC274EA06700124EF8 /* PlaylistGeneratorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
