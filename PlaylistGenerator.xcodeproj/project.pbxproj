@@ -52,7 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				8AECEFDB274EA06700124EF8 /* PlaylistGeneratorApp.swift */,
-				8AECEFDD274EA06700124EF8 /* ContentView.swift */,
+				8AECEFE9274EA08600124EF8 /* Model */,
+				8AECEFEA274EA09300124EF8 /* Views */,
 				8AECEFDF274EA06E00124EF8 /* Assets.xcassets */,
 				8AECEFE1274EA06E00124EF8 /* Preview Content */,
 			);
@@ -65,6 +66,21 @@
 				8AECEFE2274EA06E00124EF8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8AECEFE9274EA08600124EF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8AECEFEA274EA09300124EF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8AECEFDD274EA06700124EF8 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
