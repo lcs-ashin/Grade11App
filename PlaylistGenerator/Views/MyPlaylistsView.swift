@@ -18,6 +18,7 @@ struct MyPlaylistsView: View {
                 })
             }
         }
+        .listStyle(.plain)
         .navigationTitle("My Playlists")
     }
 }
