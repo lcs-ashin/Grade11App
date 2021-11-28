@@ -11,7 +11,7 @@ import SwiftUI
 struct PlaylistGeneratorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainPageView()
         }
     }
 }
