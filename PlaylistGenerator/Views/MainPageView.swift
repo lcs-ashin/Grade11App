@@ -9,33 +9,42 @@ import SwiftUI
 
 struct MainPageView: View {
     var body: some View {
-        VStack(alignment: .center) {
-            // Title
-            Label(title: {
-                Text("Playlist Generator")
-            }, icon: {
-                Image(systemName: "music.note.list")
-            })
-                .font(.title.bold())
+        ZStack {
+            // Background
+            Image("background")
+                .edgesIgnoringSafeArea(.all)
+                .aspectRatio(contentMode: .fill)
+                .blur(radius: 90)
             
-            // Insert button
-            Group {
-                Button(action: {
-                    // NOTE: Output will not be shown unless this app is run in the "full" simulator
-                    print("Button was pressed")
-                }, label: {
-                    Text("Create a new playlist")
+            // Text & Buttons
+            VStack(alignment: .center) {
+                // Title
+                Label(title: {
+                    Text("Playlist Generator")
+                }, icon: {
+                    Image(systemName: "music.note.list")
                 })
+                    .font(Font.custom("Helvetica", size: 35).bold())
                 
-                Button(action: {
-                    print("Button was pressed")
-                }, label: {
-                    Text("View my playlists")
-                })
+                // Insert button
+                Group {
+                    Button(action: {
+                        // NOTE: Output will not be shown unless this app is run in the "full" simulator
+                        print("Button was pressed")
+                    }, label: {
+                        Text("Create a new playlist")
+                    })
+                    
+                    Button(action: {
+                        print("Button was pressed")
+                    }, label: {
+                        Text("View my playlists")
+                    })
+                }
+                .buttonStyle(.bordered)
+                .font(Font.custom("Helvetica", size: 23))
+                .foregroundColor(.black)
             }
-            .buttonStyle(.bordered)
-            .font(.title3.bold())
-            .foregroundColor(.black)
         }
     }
 }
